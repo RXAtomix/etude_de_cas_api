@@ -9,7 +9,7 @@
   "scripts": {
     "serve": "nodemon www/app.js",
     "test": "jest",
-    "dev": "nodemon src/app.js"
+    "dev": "nodemon www/app.js"
   },
   "keywords": [],
   "author": "",
