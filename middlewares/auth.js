@@ -9,7 +9,8 @@ module.exports = (req, res, next) => {
       throw "not token";
     }
     const decoded = jwt.verify(token, config.secretJwtToken);
-    req.user = decoded;
+      req.user = decoded;
+      req.user = user; // Passer toutes les informations utilisateur dans req
     next();
   } catch (message) {
     next(new UnauthorizedError(message));
