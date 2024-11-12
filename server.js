@@ -7,6 +7,10 @@ const userRouter = require("./api/users/users.router");
 const usersController = require("./api/users/users.controller");
 const authMiddleware = require("./middlewares/auth");
 const articlesRouter = require('./api/articles/articles.router');
+
+const mongoose = require('mongoose');
+mongoose.set('strictQuery', true);
+
 const app = express();
 
 const server = http.createServer(app);
@@ -14,10 +18,10 @@ const io = new Server(server);
 
 io.on("connection", (socket) => {
   console.log("a user connected");
-  /*socket.on("my_event", (data) => {
+  socket.on("my_event", (data) => {
     console.log(data);
   });
-  io.emit("event_from_server", { test: "foo" });*/
+  io.emit("event_from_server", { test: "foo" });
 });
 
 app.use((req, res, next) => {
