@@ -6,6 +6,7 @@ class ArticlesController {
         try {
             const userId = req.user.id; // Récupération de l'id de l'utilisateur connecté
             const newArticle = await ArticleService.createArticle(req.body, userId);
+            req.io.emit('articleCreated', newArticle); // Émettre un événement de création d'article
             res.status(201).json(newArticle);
         } catch (error) {
             res.status(500).json({ message: error.message });
@@ -17,6 +18,7 @@ class ArticlesController {
         try {
             const updatedArticle = await ArticleService.updateArticle(req.params.id, req.body);
             res.status(200).json(updatedArticle);
+            req.io.emit('articleUpdated', updatedArticle); // Émettre un événement de mise à jour d'article
         } catch (error) {
             res.status(500).json({ message: error.message });
         }
@@ -26,6 +28,7 @@ class ArticlesController {
     async deleteArticle(req, res) {
         try {
             await ArticleService.deleteArticle(req.params.id);
+            req.io.emit('articleDeleted', { id: req.params.id }); // Émettre un événement de suppression d'article
             res.status(200).json({ message: 'Article supprimé avec succès.' });
         } catch (error) {
             res.status(500).json({ message: error.message });
