@@ -29,6 +29,7 @@ app.use(cors());
 app.use(express.json());
 
 app.use("/api/users", authMiddleware, userRouter);
+app.use('/api/articles', articlesRouter);
 app.post("/login", usersController.login);
 
 app.use("/", express.static("public"));
