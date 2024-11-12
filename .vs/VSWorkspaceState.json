@@ -3,8 +3,14 @@
     "",
     "\\api",
     "\\api\\articles",
-    "\\api\\users"
+    "\\api\\users",
+    "\\config",
+    "\\errors",
+    "\\middlewares",
+    "\\public",
+    "\\tests",
+    "\\www"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\api\\users\\users.service.js",
   "PreviewInSolutionExplorer": false
 }
