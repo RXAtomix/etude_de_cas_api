@@ -1,3 +1,11 @@
+const NotFoundError = require("../../errors/not-found");
+const UnauthorizedError = require("../../errors/unauthorized");
+const jwt = require("jsonwebtoken");
+const config = require("../../config");
+
+const mongoose = require('mongoose');
+mongoose.set('strictQuery', true);
+
 const ArticleService = require('./articles.service');
 
 class ArticlesController {
