@@ -16,6 +16,9 @@ class ArticlesController {
     // Contrôleur pour la mise à jour d'un article
     async updateArticle(req, res) {
         try {
+            if (req.user.role !== 'admin') {
+                return res.status(403).json({ message: 'Accès refusé. Seul un administrateur peut modifier un article.' });
+            }
             const updatedArticle = await ArticleService.updateArticle(req.params.id, req.body);
             res.status(200).json(updatedArticle);
             req.io.emit('articleUpdated', updatedArticle); // Émettre un événement de mise à jour d'article
@@ -27,6 +30,9 @@ class ArticlesController {
     // Contrôleur pour la suppression d'un article
     async deleteArticle(req, res) {
         try {
+            if (req.user.role !== 'admin') {
+                return res.status(403).json({ message: 'Accès refusé. Seul un administrateur peut supprimer un article.' });
+            }
             await ArticleService.deleteArticle(req.params.id);
             req.io.emit('articleDeleted', { id: req.params.id }); // Émettre un événement de suppression d'article
             res.status(200).json({ message: 'Article supprimé avec succès.' });
