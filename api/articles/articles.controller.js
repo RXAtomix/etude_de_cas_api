@@ -5,7 +5,7 @@ class ArticlesController {
     async createArticle(req, res) {
         try {
             const userId = req.user.id; // Récupération de l'id de l'utilisateur connecté
-            const newArticle = await ArticleService.createArticle(req.body, userId);
+            const newArticle = await ArticleService.createArticle({ ...req.body, author: userId }, userId);
             req.io.emit('articleCreated', newArticle); // Émettre un événement de création d'article
             res.status(201).json(newArticle);
         } catch (error) {
