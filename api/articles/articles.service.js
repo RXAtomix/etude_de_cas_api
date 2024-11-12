@@ -1,4 +1,4 @@
-const Article = require('./articles.model');
+const Article = require('./articles.schema');
 
 class ArticleService {
     // Création d'un article
