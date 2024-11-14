@@ -1,16 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\api",
     "\\api\\articles",
-    "\\api\\users",
-    "\\config",
-    "\\errors",
-    "\\middlewares",
-    "\\public",
-    "\\tests",
-    "\\www"
+    "\\api\\users"
   ],
-  "SelectedNode": "\\api\\articles\\articles.service.js",
+  "SelectedNode": "\\ecosystem.config.js",
   "PreviewInSolutionExplorer": false
 }

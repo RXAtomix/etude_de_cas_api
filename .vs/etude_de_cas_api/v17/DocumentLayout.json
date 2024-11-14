@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\articles\\articles.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api\\articles\\articles.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\articles\\articles.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api\\articles\\articles.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\articles\\articles.schema.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api\\articles\\articles.schema.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\articles\\articles.router.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api\\articles\\articles.router.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\tests\\articles.spec.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:tests\\articles.spec.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\middlewares\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:middlewares\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\ecosystem.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ecosystem.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "articles.service.js",
-              "DocumentMoniker": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\articles\\articles.service.js",
-              "RelativeDocumentMoniker": "api\\articles\\articles.service.js",
-              "ToolTip": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\articles\\articles.service.js",
-              "RelativeToolTip": "api\\articles\\articles.service.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-14T10:10:58.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "articles.schema.js",
-              "DocumentMoniker": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\articles\\articles.schema.js",
-              "RelativeDocumentMoniker": "api\\articles\\articles.schema.js",
-              "ToolTip": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\articles\\articles.schema.js",
-              "RelativeToolTip": "api\\articles\\articles.schema.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-14T10:10:58.036Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "articles.router.js",
-              "DocumentMoniker": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\articles\\articles.router.js",
-              "RelativeDocumentMoniker": "api\\articles\\articles.router.js",
-              "ToolTip": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\articles\\articles.router.js",
-              "RelativeToolTip": "api\\articles\\articles.router.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-14T10:10:57.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "articles.controller.js",
-              "DocumentMoniker": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\articles\\articles.controller.js",
-              "RelativeDocumentMoniker": "api\\articles\\articles.controller.js",
-              "ToolTip": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\articles\\articles.controller.js",
-              "RelativeToolTip": "api\\articles\\articles.controller.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAADAAAAAAAAAA==",
+              "Title": "ecosystem.config.js",
+              "DocumentMoniker": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\ecosystem.config.js",
+              "RelativeDocumentMoniker": "ecosystem.config.js",
+              "ToolTip": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\ecosystem.config.js",
+              "RelativeToolTip": "ecosystem.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-14T10:10:57.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "articles.spec.js",
-              "DocumentMoniker": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\tests\\articles.spec.js",
-              "RelativeDocumentMoniker": "tests\\articles.spec.js",
-              "ToolTip": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\tests\\articles.spec.js",
-              "RelativeToolTip": "tests\\articles.spec.js",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAiwDcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-14T09:35:37.776Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "auth.js",
-              "DocumentMoniker": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\middlewares\\auth.js",
-              "RelativeDocumentMoniker": "middlewares\\auth.js",
-              "ToolTip": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\middlewares\\auth.js",
-              "RelativeToolTip": "middlewares\\auth.js",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-12T22:28:36.511Z",
+              "WhenOpened": "2024-11-14T12:59:28.136Z",
               "EditorCaption": ""
             }
           ]
