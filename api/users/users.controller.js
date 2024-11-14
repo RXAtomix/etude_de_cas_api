@@ -3,6 +3,7 @@ const UnauthorizedError = require("../../errors/unauthorized");
 const jwt = require("jsonwebtoken");
 const config = require("../../config");
 const usersService = require("./users.service");
+const ArticleService = require('../articles/articles.service');
 
 class UsersController {
   async getAll(req, res, next) {
@@ -71,6 +72,15 @@ class UsersController {
       });
     } catch (err) {
       next(err);
+    }
+  }
+  async getUserArticles(req, res) {
+    try {
+      const userId = req.params.userId;
+      const articles = await ArticleService.getArticlesByUser(userId);
+      res.status(200).json(articles);
+    } catch (error) {
+       res.status(500).json({ message: error.message });
     }
   }
 }

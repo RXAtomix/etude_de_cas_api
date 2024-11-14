@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\users\\users.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api\\users\\users.service.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\www\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:www\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\users\\users.router.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api\\users\\users.router.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\config\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:config\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\users\\users.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api\\users\\users.controller.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\articles\\articles.schema.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api\\articles\\articles.schema.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\users\\users.model.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:api\\users\\users.model.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "index.js",
-              "DocumentMoniker": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\config\\index.js",
-              "RelativeDocumentMoniker": "config\\index.js",
-              "ToolTip": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\config\\index.js",
-              "RelativeToolTip": "config\\index.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "users.service.js",
+              "DocumentMoniker": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\users\\users.service.js",
+              "RelativeDocumentMoniker": "api\\users\\users.service.js",
+              "ToolTip": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\users\\users.service.js",
+              "RelativeToolTip": "api\\users\\users.service.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-11T18:04:22.617Z",
+              "WhenOpened": "2024-11-11T19:34:17.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "app.js",
-              "DocumentMoniker": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\www\\app.js",
-              "RelativeDocumentMoniker": "www\\app.js",
-              "ToolTip": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\www\\app.js",
-              "RelativeToolTip": "www\\app.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Title": "users.router.js",
+              "DocumentMoniker": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\users\\users.router.js",
+              "RelativeDocumentMoniker": "api\\users\\users.router.js",
+              "ToolTip": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\users\\users.router.js",
+              "RelativeToolTip": "api\\users\\users.router.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-11T18:04:11.052Z",
+              "WhenOpened": "2024-11-11T19:34:16.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "package.json",
-              "DocumentMoniker": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\package.json",
-              "RelativeDocumentMoniker": "package.json",
-              "ToolTip": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\package.json",
-              "RelativeToolTip": "package.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-11T17:27:34.037Z",
+              "DocumentIndex": 2,
+              "Title": "users.controller.js",
+              "DocumentMoniker": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\users\\users.controller.js",
+              "RelativeDocumentMoniker": "api\\users\\users.controller.js",
+              "ToolTip": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\users\\users.controller.js",
+              "RelativeToolTip": "api\\users\\users.controller.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-11T19:34:15.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "users.model.js",
+              "DocumentMoniker": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\users\\users.model.js",
+              "RelativeDocumentMoniker": "api\\users\\users.model.js",
+              "ToolTip": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\users\\users.model.js",
+              "RelativeToolTip": "api\\users\\users.model.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-11T19:33:50.284Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "package-lock.json",
-              "DocumentMoniker": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\package-lock.json",
-              "RelativeDocumentMoniker": "package-lock.json",
-              "ToolTip": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\package-lock.json",
-              "RelativeToolTip": "package-lock.json",
-              "ViewState": "AgIAAJsUAAAAAAAAAAAwwD8VAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-11T17:27:32.365Z",
+              "Title": "articles.schema.js",
+              "DocumentMoniker": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\articles\\articles.schema.js",
+              "RelativeDocumentMoniker": "api\\articles\\articles.schema.js",
+              "ToolTip": "C:\\Users\\Kyushui\\Desktop\\ISCOD\\etude_de_cas_api\\api\\articles\\articles.schema.js",
+              "RelativeToolTip": "api\\articles\\articles.schema.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-11T19:33:43.664Z",
               "EditorCaption": ""
             }
           ]

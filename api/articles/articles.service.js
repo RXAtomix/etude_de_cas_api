@@ -32,6 +32,14 @@ class ArticleService {
             throw new Error('Erreur lors de la suppression de l\'article: ' + error.message);
         }
     }
+
+    async getArticlesByUser(userId) {
+        try {
+            return await Article.find({ user: userId }).populate('user', '-password');
+        } catch (error) {
+            throw new Error('Erreur lors de la récupération des articles : ' + error.message);
+        }
+    }
 }
 
 module.exports = new ArticleService();
