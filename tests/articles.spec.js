@@ -51,7 +51,7 @@ describe('Articles API', () => {
 
     // Test de mise à jour d'un article
     it('devrait mettre à jour un article', async () => {
-        mockingoose(Article).toReturn(MOCK_ARTICLE, 'findOneAndUpdate');
+        mockingoose(Article).toReturn({ ...MOCK_ARTICLE, ...UPDATED_ARTICLE }, 'findOneAndUpdate');
 
         const response = await request(app)
             .put(`/api/articles/${MOCK_ARTICLE._id}`)
