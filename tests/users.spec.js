@@ -9,20 +9,19 @@ const usersService = require("../api/users/users.service");
 
 describe("tester API users", () => {
     let token;
-    const USER_ID = "fakeUserId";
-    const MOCK_DATA = {
-        _id: USER_ID,
-        name: "ana",
-        email: "nfegeg@gmail.com",
-        password: "azertyuiop",
-        role: "admin",
-    };
+    const USER_ID = "fake";
+    const MOCK_DATA = [
+        {
+            _id: USER_ID,
+            name: "ana",
+            email: "nfegeg@gmail.com",
+            password: "azertyuiop",
+        },
+    ];
     const MOCK_DATA_CREATED = {
-        _id: mongoose.Types.ObjectId(),
         name: "test",
         email: "test@test.net",
         password: "azertyuiop",
-        role: "admin",
     };
 
     beforeEach(() => {
