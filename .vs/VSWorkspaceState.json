@@ -11,6 +11,6 @@
     "\\tests",
     "\\www"
   ],
-  "SelectedNode": "\\config\\index.js",
+  "SelectedNode": "\\api\\articles\\articles.service.js",
   "PreviewInSolutionExplorer": false
 }

@@ -6,7 +6,7 @@ class ArticleService {
         try {
             const newArticle = new Article({
                 ...articleData,
-                author: userId,
+                user: userId,
                 createdAt: Date.now()
             });
             return await newArticle.save();
